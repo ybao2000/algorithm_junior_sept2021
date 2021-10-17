@@ -8,7 +8,7 @@ def operate(B, n):
       # move the first to the end
       a, b, c, d, e = b, c, d, e, a #left side is the new ones, right side is the original ones
     elif B == 2:
-      # more the last to the first
+      # move the last to the first
       a, b, c, d, e = e, a, b, c, d
     elif B == 3:
       # swap the first two
